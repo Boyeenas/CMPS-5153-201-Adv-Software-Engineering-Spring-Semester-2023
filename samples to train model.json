@@ -1,0 +1,1052 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "how are ya",
+                                "heyy",
+                                "whatsup"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "see you",
+                                "bye bye",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Bye",
+                                "Have a Good day",
+                                "talk to you later",
+                                "tyyl",
+                                "i got to go",
+                                "gtg"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!",
+                                "Come back soon"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "undergraduate application",
+                        "patterns": [
+
+                                "how to apply for undergraduate",
+                                "What is the process of applying for an undergraduate program?",
+                                "How does one go about applying for an undergraduate degree program?",
+                                "What are the steps involved in applying to an undergraduate program?",
+                                "Could you walk me through the process of applying for an undergraduate degree?",
+                                "Can you provide me with information on how to apply for undergraduate programs?",
+                                "How do I submit my application for undergraduate programs?"
+                        ],
+                        "responses": [
+                                "Get your application started through ApplyTexas! We're always happy to receive an application here at MSU Texas!😀. Please visit the below link, https://www.applytexas.org/"
+                   	],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Sat or act score requirement",
+                        "patterns": [
+                                "do we need sat or act score for admission",
+                                "Do universities typically require SAT or ACT scores as part of the undergraduate application process?",
+                                "Are SAT or ACT scores necessary for admission to undergraduate programs?",
+                                "What is the policy regarding SAT or ACT scores for undergraduate admission?",
+                                "Are there any undergraduate programs that do not require SAT or ACT scores?",
+                                "How much weight do SAT or ACT scores carry in the undergraduate admission decision?",
+                                "Can students apply to undergraduate programs without submitting SAT or ACT scores?",
+                                "How do SAT or ACT scores fit into the overall evaluation of an undergraduate application?"
+                        ],
+                        "responses": [
+                                "For the 2022-2023 year, MSU Texas is test-optional. As a result, there are multiple ways to gain admission to MSU Texas, with or without SAT/ACT scores. For more information, please visit the link below:   https://msutexas.edu/admissions/requirements.php"
+			],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Sat or act score submission",
+                        "patterns": [
+                                "how to submit sat or act score",
+                                "where to submit sat or act scores",
+                                "Can you guide me the path to submit the scores",
+                                "can you give me the link to submit the act or sat scores",
+                                "Do we have any link to submit the scores"
+                        ],
+                        "responses": [
+                                "You can send your SAT score by logging into your College Board account at bit.ly/sat-send and request your scores to be sent to MSU."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "GPA requirement",
+                        "patterns": [
+
+                                "what is GPA requirements for undergraduate",
+                                "what the minimum GPA is for undergraduates",
+                                "GPA specifications for undergraduates",
+                                "What are the GPA requirements for undergraduate students?",
+                                "what are the undergraduate GPA requirements"
+                                
+                        ],
+                        "responses": [
+                                "For incoming freshman, we are looking for students in the top 25% or those who have a 3.0 GPA- students not meeting this are individually reviewed (requirements: http://bit.ly/2Pwk3Yp). For transfers, we are looking for a cumulative GPA of a 2.0"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": " undergraduate course",
+                        "patterns": [
+                                "list of courses",
+                                "list of courses offered",
+                                "list of courses offered in PHCET",
+                                "what are the courses offered in your college?",
+                                "courses?",
+                                "courses offered",
+                                "courses offered in MSU",
+                                "courses you offer",
+                                "branches?",
+                                "courses available at MSU?",
+                                "branches available at MSU?",
+                                "what are the courses in MSU?",
+                                "what are branches in MSU?",
+                                "what are courses in MSU?",
+                                "branches available in MSU?",
+                                "can you tell me the courses available in MSU?"
+                        ],
+                        "responses": [
+                                "Bachelors Programmes provided are Accounting, Biology, Business Administration, Chemistry, Computer Science, Criminal Justice, Education, English, History, Mathematics, Nursing, Psychology, Radiologic Sciences, Social Work, Spanish. To know more please visit the link mentioned : https://msutexas.edu/academics/undergraduate-majors-and-programs.php"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fees",
+                        "patterns": [
+                                "information about fee",
+                                "information on fee",
+                                "tell me the fee",
+                                "college fee",
+                                "fee per semester",
+                                "what is the fee of each semester",
+                                "what is the fees of each year",
+                                "what is fee",
+                                "what is the fees",
+                                "how much is the fees",
+                                "fees",
+                                "about the fees",
+                                "tell me something about the fees"
+                               
+                        ],
+                        "responses": [
+"For Fee details visit https://msutexas.edu/finaid/msu-coa.php"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "location",
+                        "patterns": [
+                                "where is the college located",
+                                "college is located at",
+                                "where is college",
+                                "where is college located",
+                                "address of college",
+                                "how to reach college",
+                                "college location",
+                                "college address",
+                                "wheres the college",
+                                "how can I reach college",
+                                "whats is the college address",
+                                "what is the address of college",
+                                "address",
+                                "location"
+                        ],
+                        "responses": [
+                                "University is located in Wichita falls city of Texas state. To know more about the university, please visit the link : https://msutexas.edu/about/maps/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "undergraduate application fee",
+                        "patterns": [
+                                "how to pay the undergraduate application fee?",
+                                "How do I pay the application fee for undergraduates?",
+                                "How do I submit my undergraduate application fee?",
+                                "How do I pay the undergraduate application fee?",
+                                "How should the undergraduate application cost be paid?",
+                                "How do I pay the application fee for undergraduate study?"
+                        ],
+                        "responses": [
+				"Hello, you can pay by visiting the below link: https://secure.touchnet.com/C20137_ustores/web/product_detail.jsp?PRODUCTID=111&SINGLESTORE=true"
+				   ],
+                        "context_set": ""
+                },
+           {
+                        "tag": "graduate application fee",
+                        "patterns": [
+                                "how to pay the graduate application fee?",
+                                "How do I pay the application fee for graduates?",
+                                "How do I submit my graduate application fee?",
+                                "How do I pay the graduate application fee?",
+                                "How should the graduate application cost be paid?",
+                                "How do I pay the application fee for graduate study?"
+                        ],
+                        "responses": [
+				"Hello, you can pay by visiting the below link: https://secure.touchnet.com/C20137_ustores/web/product_detail.jsp?PRODUCTID=111&SINGLESTORE=true"
+				   ],
+                        "context_set": ""
+                },
+                 {
+                        "tag": "Pay evaluation fee",
+                        "patterns": [
+                                "where to pay the international evaluation fee?",
+                                "where can I pay the cost for an overseas evaluation?",
+                                "Where should I pay the global evaluation fee?",
+                                "Where should the international evaluation charge be paid?",
+                                "Where is the international evaluation fee payable?",
+                                "Where can I pay the international evaluation fee?"
+                             
+                        ],
+                        "responses": [
+                                " Hello, you can pay by visiting the below link:https://secure.touchnet.com/C20137_ustores/web/product_detail.jsp?PRODUCTID=557&SINGLESTORE=true"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "New Student Orientation",
+                        "patterns": [
+                              "New Student Orientation: What Is It?",
+                                "What is New Student Orientation?",
+                                "Orientation for new students: What is it?",
+                                "What exactly is New Student Orientation?"
+                                
+                        ],
+                        "responses": [
+                            
+                                "New Student Orientation is a required program for all entering undergraduates at MSU to assist in the transition process between admitted student to enrolled student at the university. See details by using the link under RELATED LINKS that corresponds with your entry term/year at MSU."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "student orientation fee",
+                        "patterns": [
+                                "Is there a fee for a student to complete New Student Orientation?",
+                                "Is there a charge for passing New Student Orientation?",
+                                "Does it cost money for a student to finish new student orientation?",
+                                "Is there a cost for a student to attend New Student Orientation?",
+                                "Is there a charge to attend New Student Orientation?"
+                        
+                        ],
+                        "responses": [
+                                "To know more about documents required visit<a target=\"_blank\" href=\"https://phcet.ac.in/academics/admissions/list-of-document-required/\"> here</a>"
+                        ],						
+                        "context_set": ""
+                },
+                {
+                        "tag": "Account hold",
+                        "patterns": [
+                                "I was told that I have a ","hold"," on my account. What does this mean?",
+                                "The 'hold' on my account, I was informed, is there. Why does this matter?",
+                                "My account has a ","hold"," on it, I was told. Why does this matter?"
+                        ],
+                        "responses": [
+                                "MSU uses registration holds on student accounts to make sure all required items are completed before an incoming student can register for or begin classes. Common holds for incoming students include: Texas Success Initiative (TSI), Meningitis, Advising and/or Orientation. These holds must all be cleared/removed before a student can begin the semester."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "student orientation invitation",
+                        "patterns": [
+                                "How do you get invited to New Student Orientation?",
+                                "How do you acquire a New Student Orientation invitation?",
+                                "How do you receive an invitation to the new student orientation?",
+                                "What is the procedure for being invited to New Student Orientation?"
+
+                        ],
+                        "responses": [
+                                "You do not need a specific invitation to complete New Student Orientation, however, you must be accepted for admission to MSU prior to completing Orientation."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "parents attend student orietation",
+                        "patterns": [
+                                "Can parents attend New Student Orientation?",
+                                "Can parents join their children for new student orientation?",
+                                "Is it possible for parents to attend New Student Orientation?",
+                                "Are parents allowed to come to New Student Orientation?",
+                                "can parents come to student orientation"
+           
+                        ],
+                        "responses": [
+                                 "On-Campus: Up to 2 parents or guests are welcome to attend the on-campus Orientation with each student, however, it is NOT required. There is a $10 per parent/guest fee. During the New Student Orientation sessions hosted each summer for incoming fall students we host presentations specifically for attending parents/guests. Virtual: We have content prepared specifically for parents and family members at the ","Parent & Family Orientation"," tab under RELATED LINKS.  \n"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "International student orientation",
+                        "patterns": [
+                                "I’m an International student. How do I complete the Orientation requirement?",
+                                "As an international student, do i need o attend the orientation",
+                                "is it necessary to attend student orientation as an international student",
+                                "is it mandate to attend the orientation as an international student"
+                            
+                        ],
+                        "responses": [
+                                "First, complete university Online Orientation using the link that corresponds with your entry term (Spring, Fall, etc.).The Online Orientation will cover basic academic, financial and involvement information for new students. Second, attend the Mandatory International Student Meeting hosted by the Global Education Office. Additional details regarding the Mandatory International Student Meeting will be provided to you by the Global Education Office."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "transfer student orientation",
+                        "patterns": [
+                                "I’m a transfer student. Am I required to complete New Student Orientation?",
+                                "I am a transfer student. Is New Student Orientation a must for me to pass?",
+                                "Is it necessary to attend student orientation as a transfer student"
+                               
+                        ],
+                        "responses": [
+                                "Yes, New Student Orientation is a required program for all entering undergraduates at MSU. You can complete online orientation to take care of this requirement. "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "early advising and registration",
+                        "patterns": [
+                                "How do I participate in the early advising and registration?",
+                                "How can I take part in early advice and registration?",
+                                "How do I get involved in early advising and registration?"
+                    
+                        ],
+                        "responses": [
+                                "Students new to MSU for the Summer or Fall semesters can begin registration for courses in mid-April and students new to MSU for the Spring semester can begin registration for courses in mid-November! You will need to meet with an Academic Advisor first. Go to the Academic Advising at MSU page to make an appointment with your Academic Advisor. "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "questions about orientation",
+                        "patterns": [
+                                "Who do I contact with questions about Orientation?",
+                                "Who should I speak with regarding Orientation if I have questions?",
+                                "Who should I speak with regarding Orientation?",
+                                "Who do I contact if I have questions regarding Orientation?",
+                               "Who should I contact if I have questions regarding Orientation?"
+                        ],
+                        "responses": [
+                                "Organizationally, the New Student Orientation Team is within the Admissions Office. Please send an email to orientation@msutexas.edu. Be sure to include your full name and Mustangs ID number when emailing so we can best assist you. You can also reach us by phone at (940) 397-6284."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "schedule advising appointment",
+                        "patterns": [
+                                "how to schedule an advising appointment?",
+                                "How do I make an appointment for advice?",
+                                "how to arrange a meeting for advice?",
+                                "How do I make an advising appointment?"
+                        ],
+                        "responses": [
+                                "Please click the link below and find the advisor:    https://msutexas.edu/academics/advising/_assets/files/fall2022advisingcontacts3.pdf"
+                        ],
+                        "context_set": ""
+                },
+                {
+                       "tag": "coordinator of arts",
+                       "patterns": [
+                               "who is the coordinator for arts?",
+                               "Who is the arts coordinator?",
+                               "What is the name of the arts coordinator?",
+                               "Who is the Arts Coordinator?"
+                       ],
+                       "responses": [
+                               "Please contact, Pettibon  gidget.pettibon@msutexas.edu, fain B106, https://msutexas.navigate.eab.com/app/#/authentication/remote/  Phone number: 940-397-4875 "
+                        ],
+                        "context_set": ""
+                },
+                {
+                       "tag": "Doctorate degree",
+                       "patterns": [
+                               "what are the doctorate degrees offered by MSU?",
+                               "What doctoral degrees does MSU offer?",
+                               "Which doctoral programs are available at MSU?",
+                               "What doctorate degrees does MSU offer?"
+                       ],
+                       "responses": [
+                               "Doctorate degress offered by MSU are:Educational Leadership, Ed.D.Educational Leadership with Superintendent Certification, Ed.D."
+                        ],
+                        "context_set": ""
+                },
+                {
+                       "tag": "masters degree offered",
+                       "patterns": [
+                               "what are the masters programs offered by MSU?",
+                               "What master's degrees does MSU offer?",
+                               "What master's programs does MSU provide?",
+                               "What master's degree programs does MSU offer?"
+                       ],
+                       "responses": [
+                               "Masters Degrees offered by MSU are:• Biology, MA/MS • Business Administration, MBA • Business Administration with Accounting Concentration, MBA • Business Administration with Energy Management Concentration, MBA • Business Analytics, MBA • Business Analytics with Accounting Concentration, MBA • Business Analytics with Energy Management Concentration, MBA • Clinical Mental Health, MA • Clinical Mental Health with School Counseling Concentration, MA • Computer Science, MS • Criminal Justice, MACJ • Curriculum and Instruction, M.Ed. • Educational Leadership, M.Ed. • Educational Leadership with Higher Education Administration Concentration, M.Ed. • Educational Leadership with Principal Certification, M.Ed. • Educational Leadership with Special Education Concentration, M.Ed. • Educational Leadership with Sport Administration Concentration, M.Ed. • English, MA/MS • Exercise Physiology, MSEP • Family Nurse Practitioner, MSN • Geosciences, MS • Health Services Administration, MHA • History, MA • Human Resource Development, MA • Human Resource Development with Training and Development Concentration, MA • Professional Studies, MPS • Psychiatric Mental Health Nurse Practitioner, MSN • Psychology, MA • Radiologic Administration, MSRS • Radiologic Education, MSRS • Radiologist Assistant, MSRS• Special Education, M.Ed. • Special Education with Dyslexia Emphasis, M.Ed. • Special Education with Dyslexia Emphasis and Educational Diagnostician Pathway, M.Ed. • Special Education with Educational Diagnostician Pathway, M.Ed. • Sport Administration, M.Ed."
+                        ],
+                        "context_set": ""
+                },
+                {
+                      "tag": "Business Masters Specialization",
+                      "patterns": [
+                              "what are the masters specializations offered by Business?",
+                              "What masters specialties does business offer?",
+                              "What master's specialities does Business provide?"
+                              ],
+                      "responses": [
+                              "Business specializations are as follows:• Business Administration, MBA • Business Administration with Accounting Concentration, MBA • Business Administration with Energy Management Concentration, MBA • Business Analytics, MBA • Business Analytics with Accounting Concentration, MBA • Business Analytics with Energy Management Concentration, MBA"
+                        ],
+                        "context_set": ""
+                },
+                {
+                      "tag": "apply graduate",
+                      "patterns": [
+                              "how to apply for a graduate program?",
+                              "how to submit an application for graduate study?",
+                              "How do I apply for a graduate program?",
+                              "how to submit an application for graduate study?"
+                      ],
+                      "responses": [
+                              "To apply for the graduate school, please visit the link below:                                            https://msutexas.edu/academics/graduate-school/how-to-apply.php"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "credit hours for semester",
+                        "patterns": [
+                                "How many credit hours do I need to take in a semester to be considered a full-time student?",
+                                "How many credits must I enroll in each semester to qualify as a full-time student?",
+                                "principal name",
+                                "I want to enroll in a full-time program, but how many credits must I take each semester to qualify?",
+                                "How many credit hours must I complete in a semester to be considered a full-time student?"
+                        ],
+                        "responses": [
+                                "For fall and spring semesters, full-time enrollment is nine or more credit hours. For summer sessions, full-time enrollment is six or more credit hours. However, students in the Family Nurse Practitioner and Psychiatric Mental Health Nurse Practitioner programs are considered full-time if they take six credit hours during fall and spring. The maximum course load for a graduate student is 16 credit hours in fall and spring semesters and six credit hours in summer sessions."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "financial assistance graduate students",
+                        "patterns": [
+                                "What financial assistance is available for graduate students at MSU Texas?",
+                                "What kind of financial aid are offered to graduate students at MSU Texas?",
+                                "What funding options are there for graduate students at MSU Texas?",
+                                "What financial aid is available to graduate students at MSU Texas?",
+                                "do we have any financial assistance"
+                        
+                        ],
+                        "responses": [
+                                "Please visit our Financial Aid website for more information, and the graduate school website has more scholarship information available to you as well."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "financial aid website",
+                        "patterns": [
+                                "where to find the financial aid website.",
+                                "where to find the webpage for financial aid.",
+                                "where to locate the financial aid website.",
+                                "where can I find the financial aid website?"          
+                        ],
+                        "responses": [
+                                "Please visit the link provided for financial aid website: https://msutexas.edu/finaid/"
+                        ],
+                        "context_set": ""
+                },
+           {
+                        "tag": "scholarship information",
+                        "patterns": [
+                                "where to find the scholarship information.",
+                                "where to find the webpage for scholarship information",
+                                "where to locate the scholarship information website.",
+                                "where can I find the scholarship information website?"          
+                        ],
+                        "responses": [
+                                "Please visit the link provided for Scholarship information: https://msutexas.edu/academics/graduate-school/scholarships.php"
+                        ],
+                        "context_set": ""
+                },
+          {
+                        "tag": "thesis information",
+                        "patterns": [
+                                "where to find the thesis information.",
+                                "where to find the webpage for thesis information",
+                                "where to locate the thesis information website.",
+                                "where can I find the thesis information website?"          
+                        ],
+                        "responses": [
+                                "Thesis information is located on the graduate school website. Please visit the link provided for more details: https://msutexas.edu/academics/graduate-school/thesis.php"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "register after a semester gap",
+                        "patterns": [
+                                "How do I register for classes if I have not attended MSU Texas for a semester?",
+                                "how to register for classes after a semester gap",
+                                "If I haven't been a student at MSU Texas for a semester, how do I sign up for classes?"
+                        ],
+                        "responses": [
+                                "If a student has not attended MSU Texas for a semester and wants to return, they need to complete a Graduate Student Reactivation Form. This applies only to students who have not graduated and who want to return to the same program of study. To receive a Graduate Student Reactivation Form, contact the Office of Graduate Admissions at graduateschool@msutexas.edu or (940) 397-4920. "
+                        ],
+                        "context_set": ""
+                },
+            {
+                        "tag": "register after a year gap",
+                        "patterns": [
+                                "How do I register for classes if I have not attended MSU Texas for a year?",
+                                "how to register for classes after a year gap",
+                                "If I haven't been a student at MSU Texas for a year, how do I sign up for classes?"
+                        ],
+                        "responses": [
+                                "If a student has not attended MSU Texas for a year or more and wants to return, they must submit a new application and pay the $50 application fee. Our graduate school website has the application, as well more information on how to apply. Please visit the link provided for more details:                               https://msutexas.edu/academics/graduate-school/how-to-apply.php"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Graduation apply",
+                        "patterns": [
+                                "How do I apply for graduation?",
+                                "How can I apply for graduation?",
+                                "How do I submit my graduation application?",
+                                "how to apply graduation"
+                        ],
+                        "responses": [
+                                "Instructions and deadlines for graduation can be found on the Registrar's website."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "last date of spring semester",
+                        "patterns": [
+                                
+                                "when is the last day of Spring 2023 semester?",
+                                "When does the Spring 2023 semester end?",
+                                "How long will the Spring 2023 semester last?",
+                                "When is the last day of spring semester"
+                        ],
+                        "responses": [
+                                "Spring semester ends on May 13th 2023."
+                        ],
+                        "context_set": ""
+                },
+          {
+                        "tag": "deadline for may graduates",
+                        "patterns": [
+                                
+                                "when is the final deadline for may graduates to file for graduation??",
+                                "What is the last day for May grads to submit their graduation applications?",
+                                "When is the last day for may grads to apply for graduation?",
+                                "When is the final date for may grads to file for graduation?"
+                        ],
+                        "responses": [
+                                "The final deadline for May graduates to file for graduation is Feb 20th 2023."
+                        ],
+                        "context_set": ""
+                },
+           {
+                        "tag": "deadline for August graduates",
+                        "patterns": [
+                                
+                                "when is the final deadline for August graduates to file for graduation??",
+                                "What is the last day for August grads to submit their graduation applications?",
+                                "When is the last day for August grads to apply for graduation?",
+                                "When is the final date for August grads to file for graduation?"
+                        ],
+                        "responses": [
+                                "The final deadline for August graduates to file for graduation is June 26th 2023."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Summer 1 start ",
+                        "patterns": [
+                                "When does summer 1 begin from?",
+                                "Summer 1 officially starts from?",
+                                "When does the first day of summer 1 begin?",
+                                "summer 1 start date"
+                                ],
+                        "responses": [
+                                "Summer-1 starts from June 5th and ends on July 7th."
+                        ],
+                        "context_set": ""
+                },
+           {
+                        "tag": "Summer 2 start ",
+                        "patterns": [
+                                "When does summer 2 begin from?",
+                                "Summer 2 officially starts from?",
+                                "When does the first day of summer 2 begin?",
+                                "summer 2 start date"
+                                ],
+                        "responses": [
+                                "Summer-2 starts from July 10th and ends on August 10th."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "summer 1 course drop",
+                        "patterns": [
+                                "when is the last day to drop summer1 course.",
+                                "When is the last day to withdraw from summer I.",
+                                "When is the deadline to withdraw from summer 1 course.",
+                                "When is the deadline for dropping the Summer1 course?",
+                                "When is the final day to drop the summer1 course?"
+                                ],
+                        "responses": [
+                                "Last Day to drop the course is June 23rd for ","W",", 4:00 p.m. – Drops after this date will receive grades of ","F.",""
+                        ],
+                        "context_set": ""
+                },
+           {
+                        "tag": "summer 2 course drop",
+                        "patterns": [
+                                "when is the last day to drop summer2 course.",
+                                "When is the last day to withdraw from summer 2.",
+                                "When is the deadline to withdraw from summer 2 course.",
+                                "When is the deadline for dropping the Summer2 course?",
+                                "When is the final day to drop the summer2 course?"
+                                ],
+                        "responses": [
+                                "Last Day to drop the course is July 27th for ","W",", 4:00 p.m. – Drops after this date will receive grades of ","F.",""
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "spring final exam date",
+                        "patterns": [
+                                "when does final exams begin for Spring 2023 semester?",
+                                "When do the Spring 2023 semester final exams start?",
+                                "When will the Spring 2023 semester's final exams start?",
+                                "When do final exams for the Spring 2023 semester begin?",
+                                "When will final exams for the Spring 2023 semester begin?"
+                                ],
+                        "responses": [
+                                "Final exams begins from May 6th 2023."
+                        ],
+                        "context_set": ""
+                },
+           {
+                        "tag": "summer 1 final exam date",
+                        "patterns": [
+                                "when does final exams begin for Summer 1 semester?",
+                                "When do the Summer 1 semester final exams start?",
+                                "When will the Summer 1 semester's final exams start?",
+                                "When do final exams for the Summer 1 semester begin?",
+                                "When will final exams for the Summer 1 semester begin?"
+                                ],
+                        "responses": [
+                                "Final exams begins from July 7th 2023."
+                        ],
+                        "context_set": ""
+                },
+           {
+                        "tag": "summer 2 exam date",
+                        "patterns": [
+                                "when does final exams begin for Summer 2 semester?",
+                                "When do the Summer 2 semester final exams start?",
+                                "When will the Summer 2 semester's final exams start?",
+                                "When do final exams for the Summer 2 semester begin?",
+                                "When will final exams for the Summer 2 semester begin?"
+                                ],
+                        "responses": [
+                                "Final exams begins from August 10th 2023."
+                        ],
+                        "context_set": ""
+                },
+          {
+                       "tag": "coordinator of biology",
+                       "patterns": [
+                               "who is the coordinator for biology?",
+                               "Who is the biology coordinator?",
+                               "What is the name of the biology coordinator?",
+                               "Who is the biology Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below: • Graduate Coordinator: Dr. Michael Shipley - michael.shipley@msutexas.edu • Secretary: Kathy Everett  - michael.shipley@msutexas.edu "
+                        ],
+                        "context_set": ""
+                },
+          {
+                       "tag": "coordinator of Business administration",
+                       "patterns": [
+                               "who is the coordinator for Business administration?",
+                               "Who is the Business administration coordinator?",
+                               "What is the name of the Business administration coordinator?",
+                               "Who is the Business administration Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below:• Graduate Coordinator: Dr. Pablo Garcia-Fuentes - pablo.fuentes@msutexas.edu• Assistant: Maria Elliott - maria.elliott@msutexas.edu "
+                        ],
+                        "context_set": ""
+                },
+          {
+                       "tag": "coordinator of Business analytics",
+                       "patterns": [
+                               "who is the coordinator for Business analytics?",
+                               "Who is the Business analytics coordinator?",
+                               "What is the name of the Business analytics coordinator?",
+                               "Who is the Business analytics Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below: • Graduate Coordinator: Dr. Pablo Garcia-Fuentes - pablo.fuentes@msutexas.edu• Assistant: Maria Elliott - maria.elliott@msutexas.edu "
+                        ],
+                        "context_set": ""
+                },
+          {
+                       "tag": "coordinator of Clinical Mental Health",
+                       "patterns": [
+                               "who is the coordinator for Clinical Mental Health?",
+                               "Who is the Clinical Mental Health coordinator?",
+                               "What is the name of the Clinical Mental Health coordinator?",
+                               "Who is the Clinical Mental Health Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below:• Graduate Coordinator: Dr. Tara Fox - tara.fox@msutexas.edu • Assistant: Leslie Crosley - leslie.crosley@msutexas.edu"
+                        ],
+                        "context_set": ""
+                },
+          {
+                       "tag": "coordinator of computer science",
+                       "patterns": [
+                               "who is the coordinator for computer science?",
+                               "Who is the computer science coordinator?",
+                               "What is the name of the computer science coordinator?",
+                               "Who is the computer science Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below:• Graduate Coordinator: Dr. Nelson Passos - nelson.passos@msutexas.edu • Secretary: Alyssa Villanueva - alyssa.villanueva@msutexas.edu"                ],
+                        "context_set": ""
+                },
+          {
+                       "tag": "coordinator of criminal justice",
+                       "patterns": [
+                               "who is the coordinator for criminal justice?",
+                               "Who is the criminal justice coordinator?",
+                               "What is the name of the criminal justice coordinator?",
+                               "Who is the criminal justice Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below:• Graduate Coordinator: Dr. Laura Fidelie - laura.fidelie@msutexas.edu • Secretary: Lauren Stillson - lauren.stillson@msutexas.edu "
+                        ],
+                        "context_set": ""
+                },
+          {
+                       "tag": "coordinator of curriculam and instruction",
+                       "patterns": [
+                               "who is the coordinator for curriculam and instruction?",
+                               "Who is the curriculam and instruction coordinator?",
+                               "What is the name of the curriculam and instruction coordinator?",
+                               "Who is the curriculam and instruction Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below:• Graduate Coordinator: Dr. Kym Acuña - kym.acuna@msutexas.edu • Assistant: Leslie Crosley - leslie.crosley@msutexas.edu"
+                        ],
+                        "context_set": ""
+                },
+          {
+                       "tag": "coordinator of educational leadership",
+                       "patterns": [
+                               "who is the coordinator for educational leadership?",
+                               "Who is the educational leadership coordinator?",
+                               "What is the name of the educational leadership coordinator?",
+                               "Who is the educational leadership Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below: • Graduate Coordinator: Dr. Matthew Capps -matthew.capps@msutexas.edu • Assistant: Leslie Crosley - leslie.crosley@msutexas.edu"
+                        ],
+                        "context_set": ""
+                },
+          {
+                       "tag": "coordinator of english",
+                       "patterns": [
+                               "who is the coordinator for english?",
+                               "Who is the english coordinator?",
+                               "What is the name of the english coordinator?",
+                               "Who is the english Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below: • Graduate Coordinator: Dr. Sally Henschel - sally.henschel@msutexas.edu "
+                        ],
+                        "context_set": ""
+                },
+          {
+                       "tag": "coordinator of exercise physology",
+                       "patterns": [
+                               "who is the coordinator for exercise physology?",
+                               "Who is the exercise physology coordinator?",
+                               "What is the name of the exercise physology coordinator?",
+                               "Who is the exercise physology Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below: • Graduate Coordinator: Dr. Frank Wyatt - frank.wyatt@msutexas.edu • Secretary: Jennifer Caskey - jennifer.caskey@msutexas.edu "
+                        ],
+                        "context_set": ""
+                },
+           {
+                       "tag": "coordinator of Nurse Practitioner, Psychiatric Mental Health",
+                       "patterns": [
+                               "who is the coordinator for Nurse Practitioner?",
+                               "Who is the Nurse Practitioner coordinator?",
+                               "What is the name of the Nurse Practitioner coordinator?",
+                               "Who is the Nurse Practitioner Coordinator?",
+                                "who is the coordinator for Psychiatric Mental Health?",
+                               "Who is the Psychiatric Mental Health coordinator?",
+                               "What is the name of the Psychiatric Mental Health coordinator?",
+                               "Who is the Psychiatric Mental Health Coordinator?"
+                           ],
+                       "responses": [
+                               "Please find the information below: • Graduate Coordinator: Dr. Catherine Pankonien - catherine.pankonien@msutexas.edu • Secretary: Cathy Healey - cathy.healey@msutexas.edu "
+                        ],
+                        "context_set": ""
+                },
+           {
+                       "tag": "coordinator of geosciences",
+                       "patterns": [
+                               "who is the coordinator for geosciences?",
+                               "Who is the geosciences coordinator?",
+                               "What is the name of the geosciences coordinator?",
+                               "Who is the geosciences Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below:• Graduate Coordinator: Dr. Andrew Katumwehe - andrew.katumwehe@msutexas.edu • Secretary: Sheila Tucker - sheila.tucker@msutexas.edu"
+                        ],
+                        "context_set": ""
+                },
+           {
+                       "tag": "coordinator of Health Services",
+                       "patterns": [
+                               "who is the coordinator for Health Services?",
+                               "Who is the Health Services coordinator?",
+                               "What is the name of the Health Services coordinator?",
+                               "Who is the Health Services Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below:• Graduate Coordinator: Dr. Roe Roberts - roe.roberts@msutexas.edu • Secretary: Lauren Stillson - lauren.stillson@msutexas.edu"
+                        ],
+                        "context_set": ""
+                },
+           {
+                       "tag": "coordinator of Human Resource Development",
+                       "patterns": [
+                               "who is the coordinator for Human Resource Development?",
+                               "Who is the Human Resource Development coordinator?",
+                               "What is the name of the Human Resource Development coordinator?",
+                               "Who is the Human Resource Development Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below: • Graduate Coordinator: Dr. Roe Roberts - roe.roberts@msutexas.edu • Secretary: Lauren Stillson - lauren.stillson@msutexas.edu"
+                        ],
+                        "context_set": ""
+                },
+           {
+                       "tag": "coordinator of history",
+                       "patterns": [
+                               "who is the coordinator for history?",
+                               "Who is the history coordinator?",
+                               "What is the name of the history coordinator?",
+                               "Who is the history Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below:• Graduate Coordinator: Dr. Mary Draper - mary.draper@msutexas.edu • Secretary: Gabby Scott - gabby.scott@msutexas.edu"
+                        ],
+                        "context_set": ""
+                },
+           {
+                       "tag": "coordinator of Human Resource Development",
+                       "patterns": [
+                               "who is the coordinator for Human Resource Development?",
+                               "Who is the Human Resource Development coordinator?",
+                               "What is the name of the Human Resource Development coordinator?",
+                               "Who is the Human Resource Development Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below:• Graduate Coordinator: Dr. Kym Acuña - kym.acuna@msutexas.edu• Assistant: Leslie Crosley - leslie.crosley@msutexas.edu "
+                        ],
+                        "context_set": ""
+                },
+           {
+                       "tag": "coordinator of Radiologic Administration, Radiologic Education, and Radiologist Assistant",
+                       "patterns": [
+                               "who is the coordinator for Radiologic Administration?",
+                               "Who is the Radiologic Administration coordinator?",
+                               "What is the name of the Radiologic Administration coordinator?",
+                               "Who is the Radiologic Administration Coordinator?",
+                               "who is the coordinator for Radiologic Education?",
+                               "Who is the Radiologic Education coordinator?",
+                               "What is the name of the Radiologic Education coordinator?",
+                               "Who is the Radiologic Education Coordinator?",
+                         "who is the coordinator for Radiologist Assistant?",
+                               "Who is the Radiologist Assistant coordinator?",
+                               "What is the name of the Radiologist Assistant coordinator?",
+                               "Who is the Radiologist Assistant Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below: • Graduate Coordinator: Dr. Lynette Watts - lynette.watts@msutexas.edu • Secretary: Kamy Holloway - kamy.holloway@msutexas.edu "
+                        ],
+                        "context_set": ""
+                },
+           {
+                       "tag": "coordinator of special education",
+                       "patterns": [
+                               "who is the coordinator for special education?",
+                               "Who is the special education coordinator?",
+                               "What is the name of the special education coordinator?",
+                               "Who is the special education Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below:• Graduate Coordinator: Dr. Kym Acuña - kym.acuna@msutexas.edu• Assistant: Leslie Crosley - leslie.crosley@msutexas.edu"
+                        ],
+                        "context_set": ""
+                },
+           {
+                       "tag": "coordinator of sport administration",
+                       "patterns": [
+                               "who is the coordinator for sport administration?",
+                               "Who is the sport administration coordinator?",
+                               "What is the name of the sport administration coordinator?",
+                               "Who is the sport administration Coordinator?"
+                       ],
+                       "responses": [
+                               "Please find the information below: • Graduate Coordinator: Dr. Julie Wood - julie.wood@msutexas.edu• Assistant: Leslie Crosley - leslie.crosley@msutexas.edu"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag":"Application deadline for international students",
+                        "patterns":[
+                                "what is the application Deadline for International Applicants NOT in the U.S.",
+                                "What is the deadline for international applicants who are NOT from the United States?",
+                                "What is the deadline for international applicants who are NOT from the U.S.?",
+                                "What is the application deadline for international applicants who are not currently residing in the United States?"
+                               ],
+                        "responses": [
+                                "October 1st is the application Deadline for International Applicants NOT in the U.S."
+                           ],
+                        "context_set": ""
+                },
+           {
+                        "tag":"Application deadline for Geosciences Master's Degree",
+                        "patterns":[
+                                "what is the application Deadline for IGeosciences Master's Degree",
+                                "What is the deadline for Geosciences Master's Degree?"
+                               ],
+                        "responses": [
+                                "October 1st is the application Deadline for Geosciences Master's Degree."
+                           ],
+                        "context_set": ""
+                },
+           {
+                        "tag":"Application deadline for Nursing Graduate Certificates",
+                        "patterns":[
+                                "what is the application Deadline for Nursing Graduate Certificates",
+                                "What is the deadline for Nursing Graduate Certificates?"
+                                ],
+                        "responses": [
+                                "October 31st is the application Deadline for Nursing Graduate Certificates."
+                           ],
+                        "context_set": ""
+                },
+           {
+                        "tag":"Application deadline for Domestic Applicants",
+                        "patterns":[
+                                "what is the application Deadline for Domestic Applicants",
+                                "What is the deadline for Domestic Applicants?",
+                                "What is the deadline for Domestic students?",
+                                "What is the application deadline for Domestic students?"
+                               ],
+                        "responses": [
+                                "December 1st is the application Deadline for Domestic Applicants."
+                           ],
+                        "context_set": ""
+                },
+           {
+                        "tag":"Application deadline for international students in US",
+                        "patterns":[
+                                "what is the application Deadline for International Applicants in the U.S.",
+                                "What is the deadline for international applicants who are from the United States?",
+                                "What is the deadline for international applicants who are from the U.S.?",
+                                "What is the application deadline for international applicants are not currently residing in the United States?"
+                               ],
+                        "responses": [
+                                "December 1st is the application Deadline for International Applicants in the U.S."
+                           ],
+                        "context_set": ""
+                },
+            {
+                        "tag":"deadline to submit thesis for GAC May graduates",
+                        "patterns":[
+                                "what is the Deadline submit thesis to GAC for May graduates",
+                                "What is the deadline for thesis submission to GAC for may grads?"
+                               ],
+                        "responses": [
+                                "April 21st is the deadline to Submit Thesis to GAC Chair for May Graduates."
+                           ],
+                        "context_set": ""
+                },
+            {
+                        "tag":"deadline to submit thesis for graduate dean ",
+                        "patterns":[
+                                "what is the Deadline submit thesis to graduate dean for May graduates",
+                                "What is the deadline for thesis submission to graduate dean for may grads?"
+                                ],
+                        "responses": [
+                                "April 28th is the deadline to Submit Thesis Copy to Graduate Dean for May Graduates."
+                           ],
+                        "context_set": ""
+                },
+            {
+                        "tag":"Application deadline for international students in US",
+                        "patterns":[
+                                "what is the application Deadline for International Applicants in the U.S.",
+                                "What is the deadline for international applicants who are from the United States?",
+                                "What is the deadline for international applicants who are from the U.S.?",
+                                "What is the application deadline for international applicants are not currently residing in the United States?"
+                               ],
+                        "responses": [
+                                "December 1st is the application Deadline for International Applicants in the U.S."
+                           ],
+                        "context_set": ""
+                },
+                {
+                        "tag":"graduate resource studen center",
+                        "patterns":[
+                                "where to find graduate student resource center? ",
+                                "where is the resource center for graduate students?",
+                                "where is the graduate student resource center?"
+                        ],
+                        "responses":[
+                                "Located in Ferguson Hall 202, the Graduate Student Resource Center is a quiet and comfortable workspace exclusively for graduate students that features three computers, a printer, a growing library of reference materials, a study space, a lounge space, and free coffee."
+                        ],
+                  "context_set": ""
+                },
+                {
+                        "tag":"working hours of graduate resource center",
+                        "patterns":[
+                                "what are the hours of graduate student resource center?",
+                                "What time does the graduate student resource center open?",
+                                "How long is the resource center for graduate students open?"
+                               ],
+                        "responses":[
+                                "The hours of graduate student resource center are as below:Spring 2023 Hours of Operation January 17 - May 12, Monday - Friday, 8:00 a.m. - 5:00 p.m."
+
+                        ],
+                  "context_set": ""
+                }]}
+               

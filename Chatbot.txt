@@ -1,0 +1,101 @@
+// Importing the required libraries 
+
+import spacy 
+from spacy.lang.en import English 
+import nltk
+import os
+import numpy
+import json
+
+//Setting up spaCy's English language model
+nlp = English()
+
+//Importing a saved object in Python
+import pickle
+
+//Defining a function to split the dataset into training and testing sets
+def splitDataset(data):
+
+//Converting each question in the training set to a numerical representation
+    x_train=[ data.getquesInNum(x) for x in data.quess]
+
+//Retrieving the tag associated with each question in the training set.
+    y_train=[data.getTag(data.quess[x]) for x in data.quess]
+    return x_train,y_train
+
+//Defining a function to seperate the dataset into inputs(independent) and outputs(label)
+def sepdat(jsons):
+
+//converting each question in the dataset to a numerical representation 
+    Independents=[jsons.getquesInNum(x) for x in json.quess]
+
+//Retrieving the tag associated with each question in the dataset
+    label=[jsons.getTag(jsons.quess[x]) for x in jsons.quess]
+    return Independents,label
+
+
+//opening and loading the contents of the "new_data.json"file
+with open("new_data.json") as new_file:
+    json_data = json.load(new_file)
+
+//Parsing through the JSON object and extracting the tags and questions associated with each tag.
+for raw in json_data["intents"]:
+    tag=raw["tag"]
+    json_data.newtags(tag)
+    for ques in raw["patterns"]: 
+        ques=ques.lower()
+        json_data.new_qns(ques,tag)
+
+//Creating a tokenizer object from the spaCy language model
+tokenizer = nlp.Defaults.create_tokenizer(nlp)
+
+//initializing empty lists and dictionaries for various purposes
+wordindex=[]
+cnt_words=[]
+tags=[]
+windices=[]
+
+//Defining a function to add a new word to the vocabulary list
+def newWord(word):
+    if word not in wordindex:
+        wordindex[word] = cnt_words
+        cnt_words+=1
+
+Tindices=[]
+
+//Defining a function to add a new tag to the list of tags
+def newtags(tag):
+    if tag not in tags:
+        tags[tag]=cnt_tags
+        Tindices[cnt_tags]=tag
+        cnt_tags+=1
+
+//Defining a function to add a new question and its associated tag to the dataset        
+def new_qns(ques,responses):
+    ques[ques]=responses
+    words=tokenization(ques)
+    for  wrd in words:
+        newWord(wrd)
+
+//Defining a function to tokenize a question
+def tokenization(ques):
+    tokens = tokenizer(ques)
+    token_list = []
+    for token in tokens:
+        token_list.append(token.lemma_)
+    return token_list
+
+//Defining a function to retrieve the index of a word in the vocabulary list    
+def retrieveInx(word):
+    return windices[word]
+
+//defining a function to convert a question into its numerical representation    
+def quesnum( ques):
+    words=tokenization(ques)
+    tmp=[ 0 for i in range(cnt_words)]
+    for wrds in words:
+        tmp[retrieveInx(wrds)]=1
+    return tmp    
+
+    
+      
